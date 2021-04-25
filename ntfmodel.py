@@ -192,7 +192,6 @@ class LrModel:
             if i % print_step == 0:
                 et = time.time()-t0
                 print_train_step(current_cost, mavg_cost, i, current_loss, delta, et)
-                # self.component_norms()
             i+=1
             converged = delta < self.parms.MaxDelta \
                 or current_loss < self.parms.MaxLoss \
@@ -229,12 +228,12 @@ class LrModel:
         Yc = tf.reshape(Ym1,[R,I,J,K]) 
         return Yc.numpy(),Yc_norms.numpy(),Ec_norms.numpy()
 
-#''' Model with R as the innermost dimension
+
 class LrModel2(LrModel):
     ''' LrModel with R as the innermost dimension '''
     # The innermost dimmension in Tensorflow, similar to
     # numpy and C/C++, is the one you iterate throu first
-    # and correspondes to the highest index of the shape.
+    # and correspondes to the highest index of tensor.shape.
     # Values in memory are allocated along this dimension,
     # so the order of dimesions matter for computation.
     # In LrModel2 we change the order so R is at the innermost
