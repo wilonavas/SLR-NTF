@@ -13,7 +13,7 @@ trials = range(10)
 
 parms = LrModelParameters()
 parms.lrate = 0.001
-parms.MaxDelta = 1e-6
+parms.MaxDelta = 1e-8
 
 AbundanceThreshold = 0.95
 
