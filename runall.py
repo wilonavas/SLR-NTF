@@ -8,7 +8,7 @@ from utils import *
 ##########################################################################-----
 # Load hsi in matlab format
 datapath = 'data/'
-filenames = ['h01-samson', 'h02-jasper','h03-urban','h03-urban6']
+filenames = ['h01-samson','h02-jasper','h03-urban']
 trials = range(10)
 
 parms = LrModelParameters()
