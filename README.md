@@ -32,7 +32,7 @@ use it.
 10. conda install tensorflow-gpu
 11. conda install matplotlib
 
-Runing SLR-NTF Jupyter Notebook Demo
+Running SLR-NTF Jupyter Notebook Demo
 ====================================
 12. On either environment run: conda install jupyter
 13. A shortcut is installed on the Start menu that will
