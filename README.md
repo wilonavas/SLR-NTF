@@ -1,5 +1,5 @@
-# SLR-NTF
-Spatial Low Rank Nonnegative Tensor Factorization
+# SLR-NTF Unmixing
+Spatial Low Rank Nonnegative Tensor Factorization Unmixing
 
 Installing Tensorflow for Windows
 =================================
