@@ -27,6 +27,7 @@ If Nvidia libraries or the CUDA runtime is not properly setup
 tensorflow will default to running on the CPU.  If a GPU is
 detected, tensorflow will load the appropriate library and
 use it.
+
 8. conda create -n tf-gpu
 9. conda activate tf-gpu
 10. conda install tensorflow-gpu
