@@ -41,3 +41,6 @@ launch the Jupyter Server and a browser screen pointing
 to it at: http://loacalhost:8888
 14. Browse for demo.ipynb
 15. Click on Kernel->Restart and Run All
+
+Last modified 1/10/2022
+
